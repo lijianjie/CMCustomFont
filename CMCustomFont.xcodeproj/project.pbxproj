@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046513931B8EADA5003C79F1 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3E091B8E05D200D2EE6C /* Pacifico.ttf */; };
+		046513971B8EB413003C79F1 /* Freeware License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 046513951B8EB413003C79F1 /* Freeware License.txt */; };
+		046513981B8EB413003C79F1 /* Windsong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046513961B8EB413003C79F1 /* Windsong.ttf */; };
+		04CC3DE11B8E04AB00D2EE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3DE01B8E04AB00D2EE6C /* main.m */; };
+		04CC3DE41B8E04AB00D2EE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3DE31B8E04AB00D2EE6C /* AppDelegate.m */; };
+		04CC3DE71B8E04AB00D2EE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3DE61B8E04AB00D2EE6C /* ViewController.m */; };
+		04CC3DEA1B8E04AB00D2EE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3DE81B8E04AB00D2EE6C /* Main.storyboard */; };
+		04CC3DEC1B8E04AB00D2EE6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3DEB1B8E04AB00D2EE6C /* Images.xcassets */; };
+		04CC3DEF1B8E04AB00D2EE6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3DED1B8E04AB00D2EE6C /* LaunchScreen.xib */; };
+		04CC3DFB1B8E04AB00D2EE6C /* CMCustomFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3DFA1B8E04AB00D2EE6C /* CMCustomFontTests.m */; };
+		04CC3E0C1B8E05D200D2EE6C /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3E0A1B8E05D200D2EE6C /* SIL Open Font License.txt */; };
+		04CC3E0F1B8E113E00D2EE6C /* UIFont+CMCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC3E0E1B8E113E00D2EE6C /* UIFont+CMCustom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CC3DF51B8E04AB00D2EE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CC3DD31B8E04AB00D2EE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CC3DDA1B8E04AB00D2EE6C;
+			remoteInfo = CMCustomFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046513951B8EB413003C79F1 /* Freeware License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Freeware License.txt"; sourceTree = "<group>"; };
+		046513961B8EB413003C79F1 /* Windsong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Windsong.ttf; sourceTree = "<group>"; };
+		04CC3DDB1B8E04AB00D2EE6C /* CMCustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMCustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC3DDF1B8E04AB00D2EE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC3DE01B8E04AB00D2EE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CC3DE21B8E04AB00D2EE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CC3DE31B8E04AB00D2EE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CC3DE51B8E04AB00D2EE6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04CC3DE61B8E04AB00D2EE6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04CC3DE91B8E04AB00D2EE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CC3DEB1B8E04AB00D2EE6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04CC3DEE1B8E04AB00D2EE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04CC3DF41B8E04AB00D2EE6C /* CMCustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMCustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CC3DF91B8E04AB00D2EE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC3DFA1B8E04AB00D2EE6C /* CMCustomFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMCustomFontTests.m; sourceTree = "<group>"; };
+		04CC3E091B8E05D200D2EE6C /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		04CC3E0A1B8E05D200D2EE6C /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		04CC3E0D1B8E113E00D2EE6C /* UIFont+CMCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CMCustom.h"; sourceTree = "<group>"; };
+		04CC3E0E1B8E113E00D2EE6C /* UIFont+CMCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CMCustom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CC3DD81B8E04AB00D2EE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC3DF11B8E04AB00D2EE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046513941B8EB413003C79F1 /* Windsong */ = {
+			isa = PBXGroup;
+			children = (
+				046513951B8EB413003C79F1 /* Freeware License.txt */,
+				046513961B8EB413003C79F1 /* Windsong.ttf */,
+			);
+			path = Windsong;
+			sourceTree = "<group>";
+		};
+		04CC3DD21B8E04AB00D2EE6C = {
+			isa = PBXGroup;
+			children = (
+				04CC3DDD1B8E04AB00D2EE6C /* CMCustomFont */,
+				04CC3DF71B8E04AB00D2EE6C /* CMCustomFontTests */,
+				04CC3DDC1B8E04AB00D2EE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CC3DDC1B8E04AB00D2EE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3DDB1B8E04AB00D2EE6C /* CMCustomFont.app */,
+				04CC3DF41B8E04AB00D2EE6C /* CMCustomFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CC3DDD1B8E04AB00D2EE6C /* CMCustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3DE21B8E04AB00D2EE6C /* AppDelegate.h */,
+				04CC3DE31B8E04AB00D2EE6C /* AppDelegate.m */,
+				04CC3DE51B8E04AB00D2EE6C /* ViewController.h */,
+				04CC3DE61B8E04AB00D2EE6C /* ViewController.m */,
+				04CC3E0D1B8E113E00D2EE6C /* UIFont+CMCustom.h */,
+				04CC3E0E1B8E113E00D2EE6C /* UIFont+CMCustom.m */,
+				04CC3DE81B8E04AB00D2EE6C /* Main.storyboard */,
+				04CC3DEB1B8E04AB00D2EE6C /* Images.xcassets */,
+				04CC3DED1B8E04AB00D2EE6C /* LaunchScreen.xib */,
+				04CC3DDE1B8E04AB00D2EE6C /* Supporting Files */,
+			);
+			path = CMCustomFont;
+			sourceTree = "<group>";
+		};
+		04CC3DDE1B8E04AB00D2EE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046513941B8EB413003C79F1 /* Windsong */,
+				04CC3E081B8E05D200D2EE6C /* pacifico */,
+				04CC3DDF1B8E04AB00D2EE6C /* Info.plist */,
+				04CC3DE01B8E04AB00D2EE6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CC3DF71B8E04AB00D2EE6C /* CMCustomFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3DFA1B8E04AB00D2EE6C /* CMCustomFontTests.m */,
+				04CC3DF81B8E04AB00D2EE6C /* Supporting Files */,
+			);
+			path = CMCustomFontTests;
+			sourceTree = "<group>";
+		};
+		04CC3DF81B8E04AB00D2EE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3DF91B8E04AB00D2EE6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CC3E081B8E05D200D2EE6C /* pacifico */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3E091B8E05D200D2EE6C /* Pacifico.ttf */,
+				04CC3E0A1B8E05D200D2EE6C /* SIL Open Font License.txt */,
+			);
+			path = pacifico;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CC3DDA1B8E04AB00D2EE6C /* CMCustomFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CC3DFE1B8E04AB00D2EE6C /* Build configuration list for PBXNativeTarget "CMCustomFont" */;
+			buildPhases = (
+				04CC3DD71B8E04AB00D2EE6C /* Sources */,
+				04CC3DD81B8E04AB00D2EE6C /* Frameworks */,
+				04CC3DD91B8E04AB00D2EE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMCustomFont;
+			productName = CMCustomFont;
+			productReference = 04CC3DDB1B8E04AB00D2EE6C /* CMCustomFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CC3DF31B8E04AB00D2EE6C /* CMCustomFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CC3E011B8E04AB00D2EE6C /* Build configuration list for PBXNativeTarget "CMCustomFontTests" */;
+			buildPhases = (
+				04CC3DF01B8E04AB00D2EE6C /* Sources */,
+				04CC3DF11B8E04AB00D2EE6C /* Frameworks */,
+				04CC3DF21B8E04AB00D2EE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CC3DF61B8E04AB00D2EE6C /* PBXTargetDependency */,
+			);
+			name = CMCustomFontTests;
+			productName = CMCustomFontTests;
+			productReference = 04CC3DF41B8E04AB00D2EE6C /* CMCustomFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CC3DD31B8E04AB00D2EE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CMBaiDu;
+				TargetAttributes = {
+					04CC3DDA1B8E04AB00D2EE6C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04CC3DF31B8E04AB00D2EE6C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04CC3DDA1B8E04AB00D2EE6C;
+					};
+				};
+			};
+			buildConfigurationList = 04CC3DD61B8E04AB00D2EE6C /* Build configuration list for PBXProject "CMCustomFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CC3DD21B8E04AB00D2EE6C;
+			productRefGroup = 04CC3DDC1B8E04AB00D2EE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CC3DDA1B8E04AB00D2EE6C /* CMCustomFont */,
+				04CC3DF31B8E04AB00D2EE6C /* CMCustomFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CC3DD91B8E04AB00D2EE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046513981B8EB413003C79F1 /* Windsong.ttf in Resources */,
+				04CC3E0C1B8E05D200D2EE6C /* SIL Open Font License.txt in Resources */,
+				046513931B8EADA5003C79F1 /* Pacifico.ttf in Resources */,
+				046513971B8EB413003C79F1 /* Freeware License.txt in Resources */,
+				04CC3DEA1B8E04AB00D2EE6C /* Main.storyboard in Resources */,
+				04CC3DEF1B8E04AB00D2EE6C /* LaunchScreen.xib in Resources */,
+				04CC3DEC1B8E04AB00D2EE6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC3DF21B8E04AB00D2EE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CC3DD71B8E04AB00D2EE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC3DE71B8E04AB00D2EE6C /* ViewController.m in Sources */,
+				04CC3DE41B8E04AB00D2EE6C /* AppDelegate.m in Sources */,
+				04CC3DE11B8E04AB00D2EE6C /* main.m in Sources */,
+				04CC3E0F1B8E113E00D2EE6C /* UIFont+CMCustom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CC3DF01B8E04AB00D2EE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC3DFB1B8E04AB00D2EE6C /* CMCustomFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CC3DF61B8E04AB00D2EE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CC3DDA1B8E04AB00D2EE6C /* CMCustomFont */;
+			targetProxy = 04CC3DF51B8E04AB00D2EE6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CC3DE81B8E04AB00D2EE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CC3DE91B8E04AB00D2EE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CC3DED1B8E04AB00D2EE6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CC3DEE1B8E04AB00D2EE6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CC3DFC1B8E04AB00D2EE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CC3DFD1B8E04AB00D2EE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CC3DFF1B8E04AB00D2EE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMCustomFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CC3E001B8E04AB00D2EE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMCustomFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04CC3E021B8E04AB00D2EE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CMCustomFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMCustomFont.app/CMCustomFont";
+			};
+			name = Debug;
+		};
+		04CC3E031B8E04AB00D2EE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CMCustomFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMCustomFont.app/CMCustomFont";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CC3DD61B8E04AB00D2EE6C /* Build configuration list for PBXProject "CMCustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC3DFC1B8E04AB00D2EE6C /* Debug */,
+				04CC3DFD1B8E04AB00D2EE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CC3DFE1B8E04AB00D2EE6C /* Build configuration list for PBXNativeTarget "CMCustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC3DFF1B8E04AB00D2EE6C /* Debug */,
+				04CC3E001B8E04AB00D2EE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CC3E011B8E04AB00D2EE6C /* Build configuration list for PBXNativeTarget "CMCustomFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CC3E021B8E04AB00D2EE6C /* Debug */,
+				04CC3E031B8E04AB00D2EE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CC3DD31B8E04AB00D2EE6C /* Project object */;
+}

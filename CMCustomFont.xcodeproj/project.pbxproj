@@ -80,6 +80,15 @@
 			path = Windsong;
 			sourceTree = "<group>";
 		};
+		0477C7A01B8F0ADD0092995E /* CMFontRegister */ = {
+			isa = PBXGroup;
+			children = (
+				04CC3E0D1B8E113E00D2EE6C /* UIFont+CMCustom.h */,
+				04CC3E0E1B8E113E00D2EE6C /* UIFont+CMCustom.m */,
+			);
+			name = CMFontRegister;
+			sourceTree = "<group>";
+		};
 		04CC3DD21B8E04AB00D2EE6C = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +114,7 @@
 				04CC3DE31B8E04AB00D2EE6C /* AppDelegate.m */,
 				04CC3DE51B8E04AB00D2EE6C /* ViewController.h */,
 				04CC3DE61B8E04AB00D2EE6C /* ViewController.m */,
-				04CC3E0D1B8E113E00D2EE6C /* UIFont+CMCustom.h */,
-				04CC3E0E1B8E113E00D2EE6C /* UIFont+CMCustom.m */,
+				0477C7A01B8F0ADD0092995E /* CMFontRegister */,
 				04CC3DE81B8E04AB00D2EE6C /* Main.storyboard */,
 				04CC3DEB1B8E04AB00D2EE6C /* Images.xcassets */,
 				04CC3DED1B8E04AB00D2EE6C /* LaunchScreen.xib */,

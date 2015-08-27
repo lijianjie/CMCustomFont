@@ -25,13 +25,14 @@
             NSLog(@"%s, Failed to copies Pacifico.ttf to sandbox", __FUNCTION__);
         }
     }
+    
+    [self registerPacificoFonts];
 }
 
-#define kCMrRegisterFontsForURL 1
-+ (UIFont *)pacificoFontWithSize:(CGFloat)fontSize
+#define kCMrRegisterFontsForURL 0
++ (void)registerPacificoFonts
 {
     CFErrorRef error;
-    UIFont *pacificoFont;
     
 #if kCMrRegisterFontsForURL
     NSURL *pacificoFontUrl = [NSURL fileURLWithPath:[UIFont pacificoFontPath]];
@@ -41,7 +42,6 @@
         NSLog(@"Failed to load font: %@", errorDescription);
         CFRelease(errorDescription);
     }
-    pacificoFont = [UIFont fontWithName:@"Pacifico" size:fontSize];
 #else
     NSData *data = [[NSFileManager defaultManager] contentsAtPath:[UIFont pacificoFontPath]];
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((CFDataRef)data);
@@ -54,13 +54,14 @@
         CFRelease(errorDescription);
     }
     
-    NSString *fontName = (NSString *)CFBridgingRelease(CGFontCopyPostScriptName(graphicsFont));
-    pacificoFont = [UIFont fontWithName:fontName size:fontSize];
-    
     CFRelease(graphicsFont);
     CFRelease(provider);
 #endif
-    return pacificoFont;
+}
+
++ (UIFont *)pacificoFontWithSize:(CGFloat)fontSize
+{
+    return [UIFont fontWithName:@"Pacifico" size:fontSize];
 }
 
 + (UIFont *)windsongFontWithSize:(CGFloat)fontSize

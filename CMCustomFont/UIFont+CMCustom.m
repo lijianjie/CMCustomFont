@@ -29,12 +29,12 @@
     [self registerPacificoFonts];
 }
 
-#define kCMrRegisterFontsForURL 0
+#define kCMRegisterFontsForURL 0
 + (void)registerPacificoFonts
 {
     CFErrorRef error;
     
-#if kCMrRegisterFontsForURL
+#if kCMRegisterFontsForURL
     NSURL *pacificoFontUrl = [NSURL fileURLWithPath:[UIFont pacificoFontPath]];
     if (!CTFontManagerRegisterFontsForURL((CFURLRef)pacificoFontUrl, kCTFontManagerScopeNone, &error))
     {
